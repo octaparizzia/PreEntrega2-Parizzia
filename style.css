@@ -1,0 +1,140 @@
+header {
+  background-color: rgba(219, 10, 10, 0.575);
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+li {
+  display: inline;
+  margin-right: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+body {
+  background-color: rgba(248, 135, 5, 0.527);
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.container img {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.columna {
+  overflow: hidden;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container2 img {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+form {
+  display: block;
+}
+
+label,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.textoMujeres {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+/*
+.mujeres1 {
+  margin-right: 50px;
+  margin-left: 50px;
+  display: flex;
+  display: contents;
+}
+
+.mujeres2 {
+  margin-right: 50px;
+  margin-left: 50px;
+  display: flex;
+  display: contents;
+}
+
+.mujeres3 {
+  margin-right: 50px;
+  margin-left: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+*/
+footer {
+  padding: 10px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    margin: 20px;
+    flex-direction: column;
+  } 
+
+  .container2{
+    margin: 20px;
+    flex-direction: column;
+  }
+  .container 
+  .columnas {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 523px) {
+  .columna {
+    width: 32%;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header nav ul li {
+    padding: 0 30px;
+    list-style: none;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .columna {
+    width: 80%;
+  }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toble</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- 
+      <a href="../index.html"
+        ><img src="../img/logo.png" alt="camara de foto"
+      /></a>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./mujeres.html">Mujeres</a></li>
+        <li><a href="./hombres.html">Hombres</a></li>
+        <li><a href="./nosotros.html">Nosotros</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul> -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../img/logo.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./mujeres.html">Mujeres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./hombres.html">Hombres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <br />
+      <h1 class="textoMujeres">Fotografías de mujeres</h1>
+      <!-- 
+      <div class="mujeres1">
+        <img src="../img/mujer1.jpg" alt="foto de mujer" width="500px" />
+        <img src="../img/mujer4.jpg" alt="foto de mujer" width="500px" />
+        <img src="../img/mujer3.jpg" alt="foto de mujer" width="500px" />
+      </div>
+      <div class="mujeres2">
+        <img src="../img/mujer2.jpg" alt="foto de mujer" width="500px" />
+        <img src="../img/mujer5.jpg" alt="foto de mujer" width="500px" />
+        <img src="../img/mujer6.jpg" alt="foto de mujer" width="500px" />
+      </div>
+      <div class="mujeres3">
+        <img src="../img/mujer7.jpg" alt="foto de mujer" width="500px" />
+        <img src="../img/mujer8.jpg" alt="foto de mujer" width="500px" />
+      </div> -->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/mujer1.jpg" class="d-block w-50" alt="fotografía de mujer">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/mujer2.jpg" class="d-block w-50" alt="fotografía de mujer">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/mujer3.jpg" class="d-block w-50" alt="fotografía de mujer">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/mujer4.jpg" class="d-block w-50" alt="fotografía de mujer">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/mujer5.jpg" class="d-block w-50" alt="fotografía de mujer">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/mujer6.jpg" class="d-block w-50" alt="fotografía de mujer">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+    <hr />
+    <footer>
+      <p>© 2023 Toble. Todos los derechos reservados.</p>
+      <a href="https://www.instagram.com/" target="_blank"
+        ><img src="../img/instagram.png" alt="logo instagram"
+      /></a>
+      <a href="https://www.facebook.com/" target="_blank"
+        ><img src="../img/facebook.png" alt="logo facebook"
+      /></a>
+    </footer>
+  </body>
+</html>
